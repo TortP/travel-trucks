@@ -1,0 +1,11 @@
+.wrapper {
+  margin: 32px 0;
+}
+
+.details,
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}

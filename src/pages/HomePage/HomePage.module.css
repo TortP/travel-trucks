@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  width: 100%;
+  width: 1440px;
+  height: 696px;
+  overflow: hidden;
+  background-image: url('../../assets/images/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 64px;
+  border-radius: 0 0 30px 30px;
+  color: var(--color-white);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 32px;
+  letter-spacing: 0;
+  margin-bottom: 16px;
+}
+
+.container h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+.ctaButton {
+  background-color: var(--color-red);
+  width: 173px;
+  height: 56px;
+  color: var(--color-white);
+  border: none;
+  padding: 16px 48px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: var(--color-red-dark);
+}

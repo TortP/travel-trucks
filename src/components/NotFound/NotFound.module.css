@@ -1,0 +1,38 @@
+.wrapper {
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--color-white);
+  color: var(--color-gray-700);
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.message {
+  font-size: 20px;
+  margin: 16px 0 24px;
+}
+
+.homeLink {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  font-size: 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.homeLink:hover {
+  background-color: var(--color-red-dark);
+}
