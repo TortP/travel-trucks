@@ -86,22 +86,16 @@ npm run preview
 
 ```
 src/
-├── api/                # Axios requests
+├── services/                # Axios requests
 ├── assets/             # Images and static files
 ├── components/         # Reusable UI components
-├── features/           # Redux slices
 ├── pages/              # Page components
-├── redux/              # Store configuration
+├── redux/              # Store configuration and Redux slices
 ├── routes/             # App routing
 ├── styles/             # Global styles
-├── utils/              # Helpers (e.g., formatPrice)
-├── App.jsx             # Root component
-├── main.jsx            # Entry point
-└── index.css           # Base styles
+├── app/                # App components
 ```
-
 ---
-
 ## 🧪 Quality
 
 - ✅ Clean and formatted code (Prettier, ESLint)
