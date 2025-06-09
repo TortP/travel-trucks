@@ -66,7 +66,7 @@
 
 :global(.customCalendar .react-datepicker__navigation--previous::after),
 :global(.customCalendar .react-datepicker__navigation--next::after) {
-  content: "";
+  content: '';
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -83,7 +83,6 @@
   background-image: url('../../assets/icons/arrow-right.svg');
 }
 
-
 :global(.customCalendar .react-datepicker__day-names) {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -97,6 +96,11 @@
   font-weight: 500;
   text-transform: uppercase;
   color: var(--color-gray);
+}
+
+:global(.customCalendar .react-datepicker__day--outside-month) {
+  opacity: 0.6;
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
