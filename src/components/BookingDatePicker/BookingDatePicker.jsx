@@ -4,6 +4,8 @@ import 'react-datepicker/dist/react-datepicker.css';
 import styles from './BookingDatePicker.module.css';
 
 const BookingDatePicker = ({ selectedDate, setSelectedDate }) => {
+  const formatWeekDay = (day) => day.slice(0, 3).toUpperCase();
+
   return (
     <DatePicker
       selected={selectedDate}
@@ -13,6 +15,7 @@ const BookingDatePicker = ({ selectedDate, setSelectedDate }) => {
       required
       className={styles.input}
       calendarClassName="customCalendar"
+      formatWeekDay={formatWeekDay}
     />
   );
 };
