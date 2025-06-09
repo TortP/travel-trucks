@@ -54,6 +54,8 @@
 @media (max-width: 768px) {
   .container {
     width: 100%;
+    min-height: 100vh;
+    height: 100dvh;
     height: auto;
     border-radius: 0 0 16px 16px;
     background-position: center;
