@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/page/:page*", "destination": "/" }]
+}
