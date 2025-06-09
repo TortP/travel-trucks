@@ -156,3 +156,87 @@
   margin-right: 4px;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 16px;
+    max-width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .content {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .title {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .priceWrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .favoriteIcon {
+    font-size: 22px;
+    width: 28px;
+    height: 28px;
+  }
+
+  .subheader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 13px;
+  }
+
+  .description {
+    max-height: none;
+    white-space: normal;
+  }
+
+  .features {
+    gap: 6px;
+  }
+
+  .feature {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .moreBtn {
+    width: 100%;
+    height: auto;
+    padding: 14px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

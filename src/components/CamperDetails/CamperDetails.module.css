@@ -9,3 +9,15 @@
   gap: 16px;
   margin-bottom: 16px;
 }
+
+@media (max-width: 480px) {
+  .details,
+  .features {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .wrapper {
+    margin: 24px 0;
+  }
+}

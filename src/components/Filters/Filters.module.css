@@ -99,3 +99,48 @@
 .searchButton:hover {
   background-color: var(--color-red-dark);
 }
+
+@media (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+
+  .input {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+
+  .label,
+  .title {
+    font-size: 15px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 6px;
+  }
+
+  .filterButton {
+    width: 100%;
+    height: auto;
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 6px;
+  }
+
+  .searchButton {
+    width: 100%;
+    height: auto;
+    padding: 14px 0;
+    font-size: 15px;
+  }
+}

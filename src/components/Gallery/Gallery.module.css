@@ -14,3 +14,29 @@
   object-fit: cover;
   border-radius: 12px;
 }
+
+@media (max-width: 1024px) {
+  .galleryGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .galleryImage {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .galleryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .galleryImage {
+    height: 160px;
+  }
+}

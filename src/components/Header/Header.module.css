@@ -59,3 +59,41 @@
   color: var(--color-red);
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    padding: 0 12px;
+  }
+
+  .left {
+    margin-left: 0;
+    justify-self: start;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .navLink {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+}

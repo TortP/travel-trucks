@@ -366,3 +366,106 @@
 .avatarBox {
   flex-shrink: 0;
 }
+
+@media (max-width: 768px) {
+  .pageWrapper {
+    padding: 24px 12px;
+    gap: 16px;
+  }
+
+  .header,
+  .infoRow,
+  .topRow,
+  .tabContentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .galleryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tabContentWrapper {
+    gap: 24px;
+  }
+
+  .tabContentLeft,
+  .tabContentRight {
+    max-width: 100%;
+    padding: 24px 16px;
+  }
+
+  .bookingForm {
+    padding: 24px 16px;
+  }
+
+  .bookingButtonSubmit {
+    width: 100%;
+  }
+
+  .vehicleDetails ul {
+    max-width: 100%;
+  }
+
+  .avatar {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+  }
+
+  .features {
+    gap: 8px;
+  }
+
+  .features span {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .ratingLocation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .tabs {
+    gap: 12px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .detailRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .bookingForm input,
+  .bookingForm textarea {
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .description,
+  .bookingForm p {
+    font-size: 15px;
+  }
+
+  .ratingWrapper,
+  .reviewsLink {
+    font-size: 13px;
+  }
+
+  .reviewItem {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+}

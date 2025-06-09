@@ -36,3 +36,44 @@
 .homeLink:hover {
   background-color: var(--color-red-dark);
 }
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .message {
+    font-size: 18px;
+    margin: 12px 0 20px;
+  }
+
+  .homeLink {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+
+  .wrapper {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .message {
+    font-size: 16px;
+    margin: 10px 0 16px;
+  }
+
+  .homeLink {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .wrapper {
+    padding: 1rem;
+  }
+}

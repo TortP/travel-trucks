@@ -38,3 +38,27 @@
 .loadMore {
   border-radius: 200px;
 }
+
+@media (max-width: 768px) {
+  .pageWrapper {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 16px;
+    align-items: stretch;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .campersList {
+    gap: 24px;
+  }
+
+  .campersList button {
+    width: 100%;
+    height: auto;
+    padding: 14px 0;
+    font-size: 15px;
+  }
+}

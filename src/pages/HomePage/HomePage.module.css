@@ -52,3 +52,32 @@
 .ctaButton:hover {
   background-color: var(--color-red-dark);
 }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 32px 16px;
+    border-radius: 0 0 16px 16px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .container h2 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .ctaButton {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 15px;
+  }
+}

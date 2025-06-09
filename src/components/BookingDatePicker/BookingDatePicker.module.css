@@ -70,3 +70,46 @@
 :global(.customCalendar .react-datepicker__triangle) {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .input {
+    font-size: 15px;
+    padding: 12px 14px;
+  }
+
+  :global(.customCalendar) {
+    font-size: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  :global(.customCalendar .react-datepicker__header) {
+    padding-top: 8px;
+  }
+
+  :global(.customCalendar .react-datepicker__current-month) {
+    font-size: 15px;
+  }
+
+  :global(.customCalendar .react-datepicker__day),
+  :global(.customCalendar .react-datepicker__day-name) {
+    font-size: 13px;
+    width: 34px;
+    height: 30px;
+  }
+
+  :global(.customCalendar .react-datepicker__day:hover),
+  :global(.customCalendar .react-datepicker__day--selected),
+  :global(.customCalendar .react-datepicker__day--keyboard-selected) {
+    width: 34px;
+    height: 30px;
+  }
+
+  :global(.customCalendar .react-datepicker__navigation) {
+    top: 6px;
+  }
+
+  :global(.customCalendar .react-datepicker__navigation-icon::before) {
+    border-width: 1.5px;
+  }
+}

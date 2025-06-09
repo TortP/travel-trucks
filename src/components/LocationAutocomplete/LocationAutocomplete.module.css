@@ -47,3 +47,48 @@
 .dropdown li:hover {
   background-color: var(--color-gray-100);
 }
+
+
+@media (max-width: 768px) {
+  .input {
+    font-size: 15px;
+    padding: 12px 12px 12px 40px;
+  }
+
+  .inputIcon {
+    width: 18px;
+    height: 18px;
+    left: 10px;
+  }
+
+  .dropdown {
+    max-height: 200px;
+    font-size: 15px;
+  }
+
+  .dropdown li {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input {
+    font-size: 14px;
+    padding: 12px 10px 12px 38px;
+  }
+
+  .inputIcon {
+    width: 16px;
+    height: 16px;
+    left: 10px;
+  }
+
+  .dropdown {
+    max-height: 180px;
+    font-size: 14px;
+  }
+
+  .dropdown li {
+    padding: 10px;
+  }
+}
